@@ -30,8 +30,7 @@ int binary_search(int *array, size_t size, int value)
 		}
 		printf("\n");
 		delim = "";
-		sleep(1);
-		m = (L + R) / 2;
+		m = (L + R + 1) / 2;
 		if (array[m] < value)
 		{
 			L = m + 1;
