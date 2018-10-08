@@ -19,7 +19,8 @@ if __name__ == '__main__':
             todo = todos[j]
             title = todo['title']
             completed = todo['completed']
-            task = {'username': username, 'task': title, 'completed': completed}
+            task = {'username': username, 'task': title,
+                    'completed': completed}
             output[u].append(task)
 
     with open("todo_all_employees.json", mode="w") as fd:
