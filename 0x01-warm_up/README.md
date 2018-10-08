@@ -1,2 +1,2 @@
 # holbertonschool-interviews
-Algorithm review 
+Refining skills 
